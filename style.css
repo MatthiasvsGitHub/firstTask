@@ -1,19 +1,23 @@
+#about {
+    margin: 0 auto;
+  }
+
 .our-story {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  max-width: 1000px;
   height: 330px;
   padding-top: 50px;
+  margin: 0 auto;
   background-color: white;
-  border: 1px solid yellow;
+/*   border: 1px solid yellow; */
 }
 
 .our-story-image {
   padding-left: 70px;
   padding-right: 20px;
 }
-
-
 
 .our-story-text {
   /* border: 1px solid red; */
@@ -37,7 +41,22 @@
   line-height: 22px;
 }
 
-.btn-learn-more {
+#buttonSection3 {
+    background-color: transparent;
+    text-align: center;
+    border-color: #02dbcc;
+    color: #02dbcc;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-top: 3%;
+    border-radius: 3px;
+    border-style: solid;
+}
+#buttonSection3:active {
+    background-color: #02dbcc;
+    color: white;
+}
+/* .btn-learn-more {
   margin: 27px 0 0;
   min-height: 40px;
   padding: 0 13px;
@@ -53,7 +72,7 @@
   line-height: 40px;
   text-align: center;
   font-weight: bold;
-}
+} */
 
 html, body {
     margin: 0;
@@ -179,6 +198,7 @@ hr.blueDivider {
     font-weight: bold;
     padding: 10px 10px;
     border-radius: 3px;
+    border-style: solid;
 }
 #headerButton:active {
     background-color: #02dbcc;
@@ -364,9 +384,9 @@ img.brandLogo {
     min-width: 100%;
     max-width: 450px;
 }
-#inputSubmit {
+/* #inputSubmit {
 
-}
+} */
 .dummy {
 
     color: black;
