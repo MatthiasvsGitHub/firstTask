@@ -7,6 +7,11 @@ html, body {
     display: flex;
 }
 
+.videoplayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .navbar {
     display: flex;
@@ -71,3 +76,36 @@ html, body {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+
+.section4_ourstory {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0%;
+    background-image: url(Media/Background/bgk-middle.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30235f;
+    height: 20em;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.videoSize {
+    height: auto;
+    width: auto;
+}
+
+/*
+.video_play{
+    transform: scale(.2); 
+}
+
+.video_play:hover {
+    transform: scale(.4);
+}
+
+*/
