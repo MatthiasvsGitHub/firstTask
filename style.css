@@ -2,6 +2,11 @@
 h1 {
     font-weight: bold;
     text-align: center;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
 }
 
 .wrapperOne { 
@@ -20,7 +25,7 @@ h1 {
     color: white;
 }
 
-hr.solidDivider {
+hr.blueDivider {
     border-style: solid;
     color: #02dbcc;
     width: 4%;
@@ -40,12 +45,98 @@ hr.solidDivider {
     text-align: center;
     border-color: #02dbcc;
     color: #02dbcc;
+    font-weight: bold;
     padding: 10px 10px;
     border-radius: 3px;
 }
 #headerButton:active {
     background-color: #02dbcc;
     color: white;
+}
+/* Starting here: Section 6 */
+
+.sectionSixContainer {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 0%;
+    background-image: url(Media/Background/bgk-header.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30235f;
+    height: auto;
+    width: 100%;
+}
+.profileContainer {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* position: fixed; */
+}
+.profileClass {
+    display: inline-flex;
+    align-items: center;
+    /* align-self: center; */ /* Not working on mobile for some reason? */
+    flex-direction: column;
+    /* justify-content: center; */
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0.4);
+  /*   margin-left: 0%;
+    margin-right: 0%; */
+}
+.profilePic {
+    width: 300px;
+    height: 320px;
+    object-fit: cover;
+}
+.profileText {
+    background: transparent;
+    color: white;
+    overflow-wrap: normal;
+    text-align: center;
+    align-content: center center;
+}
+h3.whiteHeadline {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+h4.whiteHeadline {
+    color: white;
+    padding: 0%;
+    size: 1em;
+    margin-top: 0%;
+    font-weight: normal;
+}
+p.whiteParagraph {
+    margin-top: 3%;
+    color: white;
+}
+
+#hiringButton {
+    background-color: transparent;
+    text-align: center;
+    border-color: #02dbcc;
+    color: #02dbcc;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin-bottom: 5%;
+}
+#hiringButton:active {
+    background-color: #02dbcc;
+    color: white;
+}
+hr.whiteDivider {
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.4);
+    width: 4%;
+    height: 0px;
+    margin-bottom: 4%;
 }
 .dummy {
 
