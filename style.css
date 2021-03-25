@@ -219,6 +219,7 @@ hr.blueDivider {
     background-color: #30235f;
     height: auto;
     width: 100%;
+    flex-wrap: wrap;
 }
 .profileContainer {
     display: flex;
@@ -294,34 +295,36 @@ hr.whiteDivider {
 
 .boxSevenEight {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .boxSeven {
     display: flex;
     margin-left: auto;
-    align-items: center;
+    align-items: flex-start !important;
     flex-direction: column;
+    margin-right: 5%;
+    margin-top: 3%;
 }
 h2#headingSeven {
-    color: gray;
-    margin-top: 50%;
+    color: #413d4b;
 }
 
 /* Making the Brand Logo Grid */
 .boxEight {
     display: grid;
     margin-right: auto;
+    margin-top: 3%;
 }
 h2#headingEight {
-    color: gray;
-    margin-top: 50%;
+    color: #413d4b;
     grid-column: 1 2;
     grid-row: 1; 
 }
 img.brandLogo {
-    width: 180px;
-    height: 100px;
+    width: 150px;
+    height: 70px;
     margin: 4%;
 }
 
@@ -370,12 +373,27 @@ img.brandLogo {
 
 #inputName {
     width: 100%;
+    height: 35px;
+    margin: 2%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0,0.2);
 }
 #inputEmail {
     width: 100%;
+    height: 35px;
+    margin: 2%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0,0.2);
 }
 #inputSubject {
     width: 100%;
+    height: 35px;
+    margin: 2%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0,0.2);
 }
 #inputMessage {
     height: 200px;
@@ -383,11 +401,23 @@ img.brandLogo {
     min-height: 100px;
     min-width: 100%;
     max-width: 450px;
+    margin: 2%;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0,0.2);
 }
-/* #inputSubmit {
-
-} */
-.dummy {
-
-    color: black;
+#inputSubmit {
+    background-color: transparent;
+    text-align: center;
+    border-color: #02dbcc;
+    color: #02dbcc;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 3%;
+    border-radius: 3px;
+    border-style: solid;
+}
+#inputSubmit:active {
+    background-color: #02dbcc;
+    color: white;
 }
