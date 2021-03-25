@@ -94,6 +94,33 @@ html, body {
 
 }
 
+.wrapperOne { 
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 0%;
+    background-image: url(Media/Background/bgk-header.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30235f;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+.section2 {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 10% 0%;
+    width: 100%;
+    color: white;
+}
+
 .navbar a {
     color: #888888;
     padding: .5em;
@@ -157,22 +184,6 @@ h1 {
 
 p {
     font-size: 1em;
-}
-
-.wrapperOne { 
-    display: inline-flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10% 0%;
-    background-image: url(Media/Background/bgk-header.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #30235f;
-    height: auto;
-    width: 100%;
-    color: white;
 }
 
 hr.blueDivider {
