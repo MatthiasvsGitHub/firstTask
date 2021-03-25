@@ -1,7 +1,29 @@
-#about {
-    margin: 0 auto;
-  }
+body {
+  background-color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.container {
+  display: flex;
+  float: left;
+  width: 100%;
+  background-color: ghostwhite;
+}
+
+.wrapper {
+  width: 100%;
+  /* height: 600px; */
+}
+
+#about {
+  margin: 0 auto;
+}
+
+.sub-wrapper {
+  width: 60% !important;
+  padding-left: 20%;
+  padding-right: 20%;
+}
 .our-story {
   display: flex;
   justify-content: space-between;
@@ -9,9 +31,8 @@
   max-width: 1000px;
   height: 330px;
   padding-top: 50px;
-  margin: 0 auto;
+  padding-bottom: 40px;
   background-color: white;
-/*   border: 1px solid yellow; */
 }
 
 .our-story-image {
@@ -20,9 +41,7 @@
 }
 
 .our-story-text {
-  /* border: 1px solid red; */
   padding-left: 84px;
-  /* width: 60%; */
 }
 
 .text-ourStory-title {
@@ -35,6 +54,9 @@
 .text-ourStory-dsc {
   margin: 21px 0 0;
   width: 100%;
+}
+
+.text-1 {
   opacity: 0.75;
   color: #413d4b;
   font-weight: 300;
@@ -74,13 +96,10 @@
   font-weight: bold;
 } */
 
-html, body {
-    margin: 0;
-    padding: 0;
- }
-
-.container {
-    display: flex;
+#expertise {
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: white;
 }
 
 
@@ -90,7 +109,6 @@ html, body {
     align-items: center;
     margin: 1em 0 0 0;
     /* background-color: #f3ec78; */
-
 
 }
 
@@ -215,8 +233,15 @@ hr.blueDivider {
     background-color: #02dbcc;
     color: white;
 }
-/* Starting here: Section 6 */
 
+
+.expertise-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  
 .sectionSixContainer {
     display: inline-flex;
     align-items: center;
@@ -280,29 +305,23 @@ p.whiteParagraph {
     color: white;
 }
 
-#hiringButton {
-    background-color: transparent;
-    text-align: center;
-    border-color: #02dbcc;
-    color: #02dbcc;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 3px;
-    margin-bottom: 5%;
-}
-#hiringButton:active {
-    background-color: #02dbcc;
-    color: white;
-}
-hr.whiteDivider {
-    border-style: solid;
-    color: rgba(255, 255, 255, 0.4);
-    width: 4%;
-    height: 0px;
-    margin-bottom: 4%;
+.expertise-title>h3 {
+  padding-bottom: 10px;
 }
 
-/* Starting here: Section 7 and Section 8 */
+.expertise-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.expertise-items>div {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  }
 
 .boxSevenEight {
     display: flex;
@@ -339,48 +358,25 @@ img.brandLogo {
     margin: 4%;
 }
 
-#logo1 {
-    grid-column: 1 2;
-    grid-row: 2;
-}
-#logo2 {
-    grid-column: 3 4;
-    grid-row: 2;
-}
-#logo3 {
-    grid-column: 1 2;
-    grid-row: 3;
-}
-#logo4 {
-    grid-column: 3 4;
-    grid-row: 3;
-}
-#logo5 {
-    grid-column: 1 2;
-    grid-row: 4;
-}
-#logo6 {
-    grid-column: 3 4;
-    grid-row: 4;
-}
-#logo7 {
-    grid-column: 1 2;
-    grid-row: 5;
-}
-#logo8 {
-    grid-column: 3 4;
-    grid-row: 5;
-}
-#logo9 {
-    grid-column: 1 2;
-    grid-row: 6;
-}
-#logo10 {
-    grid-column: 3 4;
-    grid-row: 6;
+.expertise-items>div img {
+  padding-bottom: 30px;
 }
 
-/* Input Form */
+
+.expertise-item-title {
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.expertise-items>div:nth-child(-n + 2) {
+  border-right: 1px solid rgb(231, 231, 229);
+}
+
+.expertise-items-horizontal-seprator {
+  width: 100%;
+  border-bottom: 1px solid rgb(231, 231, 229);
+}
 
 #inputName {
     width: 100%;
