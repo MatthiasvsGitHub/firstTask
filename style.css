@@ -1,3 +1,53 @@
-.container {
-    display: flex;
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapperOne { 
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0%;
+    background-image: url(Media/bgk-header.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30235f;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+hr.solidDivider {
+    border-style: solid;
+    color: #02dbcc;
+    width: 4%;
+    height: 0px;
+}
+
+#firstParagraph {
+    align-self: center;
+    max-width: 550px;
+    text-align: center;
+    align-content: center;
+    display: block;
+}
+
+#headerButton {
+    background-color: transparent;
+    text-align: center;
+    border-color: #02dbcc;
+    color: #02dbcc;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+#headerButton:active {
+    background-color: #02dbcc;
+    color: white;
+}
+.dummy {
+
+    color: black;
 }
