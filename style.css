@@ -380,6 +380,8 @@ p.whiteParagraph {
     color: white;
 }
 
+/* End of Section 6 */
+
 .expertise-title {
     width: 100%;
     text-align: center;
@@ -449,7 +451,7 @@ hr.blackDivider {
   /* Starting here: Section and Section 8 */
 .boxSevenEight {
     display: flex;
-    align-items: flex-start;
+    align-items: center center;
     flex-direction: row;
     flex-wrap: wrap;
 }
