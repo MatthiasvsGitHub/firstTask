@@ -252,6 +252,33 @@ hr.blueDivider {
     transform: scale(1.1);
 }
 
+
+/* Section 4 Start */
+.section4_ourstory {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0%;
+    background-image: url(Media/Background/bgk-middle.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30235f;
+    height: 20em;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+/* .videoSize {
+    height: auto;
+    width: auto;
+} */
+/* Section 4 Start */
+
+
+
 .expertise-item-title {
     padding-bottom: 15px;
     font-size: 14px;
