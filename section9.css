@@ -1,0 +1,85 @@
+.fontlogo {
+    font-family: 'Roboto Light', sans-serif; /* This is fallback font for old browsers */
+ }
+
+.logolockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+/*    background-color: blueviolet;  */
+ }
+
+
+ .logoSize {
+     font-size: 2.5em;
+     margin: 0 0 0 .25em;
+ }
+
+ /*   Information about gradients over text:  https://fossheim.io/writing/posts/css-text-gradient/   */
+ .logo-gradient {
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, #00e0d0, #4aa3cc);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.section9footer {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 0%;
+    background-image: url(Media/Background/bgk-footer.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #30235f;
+    height: 10em;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.sec9_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*
+    justify-items: start;
+    align-items: end; */
+    
+    
+    
+}
+
+.sec9_column1 {
+    align-self: stretch;
+    background-color:blue;
+}
+
+.sec9_column2 {
+    align-self: start;
+    background-color:red;
+}
+
+.sec9_column3 {
+    
+    background-color:green;
+}
+
+}
+.cell {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 150px;
+
+  margin: 20px;
+  background-color: #999;
+}
+
+.cell:nth-child(3n) {
+  background-color: rgb(0, 255, 106);
+}
