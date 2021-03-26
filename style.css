@@ -161,6 +161,10 @@ body {
  color: #00e0d0; 
   }
 
+ .navbar a:active {
+    color: #00e0d0; 
+}
+
 .font {
     font-family: 'Roboto Black', sans-serif; /* This is fallback font for old browsers */
  
@@ -172,10 +176,10 @@ body {
 
  .navmenu {
  /*   background-color: greenyellow; */
-    margin: 0 6em;
+    margin: 0 auto 0 6em;
  }
  .navlinks {
-     margin: 0 1em;
+     margin: 0 0.1em;
      
  }
 
@@ -183,7 +187,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 0 0;
+    margin: 0 auto;
 /*    background-color: blueviolet;  */
  }
 
@@ -348,22 +352,35 @@ hr.blueDivider {
     text-align: center;
     align-content: center center;
 }
+
+.sixHeadlines {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
 h3.whiteHeadline {
     color: white;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 0%;
+    line-height: normal;
 }
+
 h4.whiteHeadline {
     color: white;
     padding: 0%;
     size: 1em;
     margin-top: 0%;
     font-weight: normal;
+    line-height: normal;
 }
 p.whiteParagraph {
     margin-top: 3%;
     color: white;
 }
+
+/* End of Section 6 */
 
 .expertise-title {
     width: 100%;
@@ -427,13 +444,14 @@ hr.blackDivider {
     width: 6%;
     height: 0px;
     margin-bottom: 4%;
+    margin-top: 2%;
 }
 
 
   /* Starting here: Section and Section 8 */
 .boxSevenEight {
     display: flex;
-    align-items: flex-start;
+    align-items: center center;
     flex-direction: row;
     flex-wrap: wrap;
 }
