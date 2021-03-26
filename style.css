@@ -79,9 +79,15 @@ body {
     border-radius: 3px;
     border-style: solid;
 }
+#buttonSection3:hover {
+    background-color: rgba(2, 219, 204, 0.3); /* Same color as #02dbcc just as rbg */
+    cursor: pointer;
+    transform: scale(1.1);
+}
 #buttonSection3:active {
     background-color: #02dbcc;
     color: white;
+    transform: scale(1.1);
 }
 /* .btn-learn-more {
   margin: 27px 0 0;
@@ -234,9 +240,16 @@ hr.blueDivider {
     border-radius: 3px;
     border-style: solid;
 }
+
+#headerButton:hover {
+    background-color: rgba(2, 219, 204, 0.3); /* Same color as #02dbcc just as rbg */
+    cursor: pointer;
+    transform: scale(1.1);
+}
 #headerButton:active {
     background-color: #02dbcc;
     color: white;
+    transform: scale(1.1);
 }
 
 .expertise-item-title {
@@ -364,9 +377,15 @@ p.whiteParagraph {
     border-radius: 3px;
     margin-bottom: 5%;
 }
+#hiringButton:hover {
+    background-color: rgba(2, 219, 204, 0.3); /* Same color as #02dbcc just as rbg */
+    cursor: pointer;
+    transform: scale(1.1);
+}
 #hiringButton:active {
     background-color: #02dbcc;
     color: white;
+    transform: scale(1.1);
 }
 hr.whiteDivider {
     border-style: solid;
@@ -510,9 +529,15 @@ img.brandLogo {
     border-radius: 3px;
     border-style: solid;
 }
+#inputSubmit:hover {
+    background-color: rgba(2, 219, 204, 0.3); /* Same color as #02dbcc just as rbg */
+    cursor: pointer;
+    transform: scale(1.1);
+}
 #inputSubmit:active {
     background-color: #02dbcc;
     color: white;
+    transform: scale(1.1);
 }
 
 /* End of Input Form */
