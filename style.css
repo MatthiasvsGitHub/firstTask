@@ -161,6 +161,10 @@ body {
  color: #00e0d0; 
   }
 
+ .navbar a:active {
+    color: #00e0d0; 
+}
+
 .font {
     font-family: 'Roboto Black', sans-serif; /* This is fallback font for old browsers */
  
