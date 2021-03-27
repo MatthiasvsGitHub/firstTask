@@ -240,7 +240,8 @@ p {
 
 hr.blueDivider {
     border-style: solid;
-    color: #02dbcc;
+    border-color: transparent;
+    border-top-color: #02dbcc;
     width: 4%;
     height: 0px;
 }
@@ -528,14 +529,16 @@ p.whiteParagraph {
 }
 hr.whiteDivider {
     border-style: solid;
-    color: rgba(255, 255, 255, 0.4);
+    border-color: transparent;
+    border-top-color: rgba(255, 255, 255, 0.4);
     width: 4%;
     height: 0px;
     margin-bottom: 4%;
 }
 hr.blackDivider {
     border-style: solid;
-    color: rgba(0, 0, 0, 0.4);
+    border-color: transparent;
+    border-top-color: rgba(0, 0, 0, 0.4);
     width: 6%;
     height: 0px;
     margin-bottom: 4%;
