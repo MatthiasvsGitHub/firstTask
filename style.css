@@ -430,6 +430,7 @@ p.whiteParagraph {
 
   .expertise-items>div img {
     padding-bottom: 30px;
+    height: 45px;
   }
 
   #hiringButton {
