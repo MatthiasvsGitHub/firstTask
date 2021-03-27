@@ -1,5 +1,17 @@
+body {
+    margin: 0;
+    background-color: black;
+
+}
+
+.font {
+    font-family: 'Roboto Black', sans-serif; /* This is fallback font for old browsers */
+ 
+ }
+
 .fontlogo {
     font-family: 'Roboto Light', sans-serif; /* This is fallback font for old browsers */
+    color: white;
  }
 
 .logolockup {
@@ -27,10 +39,15 @@
     -moz-text-fill-color: transparent;
 }
 
-.section9footer {
+.sub-wrapper {
+    width: 60% !important;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+.section9 {
     display: inline-flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     padding: 10% 0%;
     background-image: url(Media/Background/bgk-footer.png);
@@ -38,48 +55,176 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #30235f;
-    height: 10em;
+ 
     width: 100%;
-    color: white;
+    /* color: rgb(0, 238, 32); */
     overflow: hidden;
 }
 
-.sec9_grid {
+.sec9_footer {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:chartreuse; */
+}
+
+.sec9_main {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 60%;
+      /* background-color: rgb(16, 0, 240); */
+  }
+
+
+  .sec9_row {
+     
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      
+   }
+
+  .box_v03 {
+      
+      width: 20rem;
+      height: auto;
+      flex-shrink: 3;
+    
+      overflow: hidden;
+      padding: .5em 1.5em 1.5em 1.5em;
+       /*  
+       border-style: solid;
+      background-color: grey;
+      border: 1px red;  */
+  }
+
+.sec9_container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /*
-    justify-items: start;
-    align-items: end; */
-    
-    
-    
+    justify-content: space-between;
 }
 
-.sec9_column1 {
-    align-self: stretch;
-    background-color:blue;
+.sec9_text {
+    color: #ffffff;
+
+  }
+
+.sec9_text a {
+    color: #ffffff;
+    padding: .5em;
+    text-decoration: none;
+    font-size: .75em;
 }
 
-.sec9_column2 {
-    align-self: start;
-    background-color:red;
+.sec9_copyright {
+    color: #ffffff;
+    margin-right: .5em;
+  }
+
+.sec9_text a:hover {
+ color: #00e0d0; 
+  }
+
+
+.sec9_text a:active {
+    color: #00e0d0; 
 }
 
-.sec9_column3 {
-    
-    background-color:green;
+#align9left {
+    justify-content: flex-start;
 }
 
-}
-.cell {
-  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-  height: 150px;
-
-  margin: 20px;
-  background-color: #999;
+.text_align_right {
+    text-align: right;
 }
 
-.cell:nth-child(3n) {
-  background-color: rgb(0, 255, 106);
+input[type=email], select, textarea {
+    color: #cccccc;
+    padding: 16px;
+
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    box-sizing: border-box;
+} 
+
+
+textarea:focus, input:focus {
+    color: #cccccc;
+}
+
+.sec9_spacer {
+    margin-bottom: 2em;
+}
+
+.sec9_social_spacer {
+    margin-top: -.5em;
+}
+
+.sec9_spacer_logo {
+    margin-bottom: .75em;
+}
+
+.sec9_subscribe {
+    height: 3.25em;
+}
+
+.sec9_subscribe:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+     transform: scale(1.2);
+}
+
+.sec9_location_icon {
+
+    width: 1em;
+}
+
+.sec9_icon {
+    margin: 1em .15em 0em;
+    width: 2em;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -o-transition: .25s ease;
+     transition: .25s ease;
+}
+
+.sec9_icon:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+     transform: scale(1.2);
+}
+
+.sec9_icon:active {
+    filter: invert(.5);
+}
+
+
+
+.submit_alignment {
+    flex: wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: .5em;
+
+}
+
+.sec9_ourstudio_alignment {
+    flex: wrap;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 1em;
+
 }
