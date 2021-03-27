@@ -298,33 +298,9 @@ hr.blueDivider {
     height: auto;
     width: auto;
 } */
-/* Section 4 Start */
+/* Section 4 End */
+/* Section 6 Start */
 
-
-
-.expertise-item-title {
-    padding-bottom: 15px;
-    font-size: 14px;
-    font-weight: bold;
-  }
-
-.expertise-title {
-  width: 100%;
-  text-align: center;
-/*   padding-top: 50px;
-  padding-bottom: 50px; */
-}
-/* .expertise-heading {
-    padding-top: 50px;
-  padding-bottom: 50px;
-} */
-.expertise-items-horizontal-seprator {
-    width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  }
-  .expertise-items>div:nth-child(-n + 2) {
-  border-right: 1px solid rgba(0, 0, 0, 0.15);
-}
 .sectionSixContainer {
     display: inline-flex;
     align-items: center;
@@ -402,6 +378,55 @@ p.whiteParagraph {
 }
 
 /* End of Section 6 */
+/* Start of Section 5 */
+
+.expertise-item-title {
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+.expertise-title {
+  width: 100%;
+  text-align: center;
+/*   padding-top: 50px;
+  padding-bottom: 50px; */
+}
+/* .expertise-heading {
+    padding-top: 50px;
+  padding-bottom: 50px;
+} */
+
+/* Start of Seperators */
+
+/* .expertise-items-horizontal-seprator {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  .expertise-items>div:nth-child(-n + 2) {
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+} */
+#pngOne {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+#pngTwo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+#pngThree {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+#pngFour {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+#pngFive {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+/* #pngSix {
+} */
+
+/* End of Seperators */
 
 .expertise-title {
     width: 100%;
@@ -432,6 +457,8 @@ p.whiteParagraph {
     padding-bottom: 30px;
     height: 45px;
   }
+
+  /* End of Section 5 */
 
   #hiringButton {
     background-color: transparent;
