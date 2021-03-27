@@ -457,6 +457,52 @@ p.whiteParagraph {
     padding-bottom: 30px;
     height: 45px;
   }
+  @media only screen and (max-width: 950px) {
+    .expertise-items-box {
+        display: flex;
+        flex-direction: row;
+    }  
+    #firstRow {
+          flex-direction: column;
+      }
+    #secondRow {
+        flex-direction: column;
+    }
+    #pngThree {
+        border-right: 1px solid rgba(0, 0, 0, 0.15);
+        border-bottom: none;
+    }
+    #pngFour {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        border-right: none;
+    }
+    #pngFive {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        border-right: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .expertise-items-box {
+        display: flex;
+        flex-direction: column;
+    }  
+    #firstRow {
+          flex-direction: column;
+      }
+    #secondRow {
+        flex-direction: column;
+    }
+    #pngOne {
+        border-right: none;
+    }
+    #pngTwo {
+        border-right: none;
+    }
+    #pngThree {
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+  }
 
   /* End of Section 5 */
 
