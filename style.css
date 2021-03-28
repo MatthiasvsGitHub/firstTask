@@ -161,7 +161,7 @@ body {
 }
 
 .navbar a {
-    color: #888888;
+    color: white;
     padding: .5em;
     text-decoration: none;
     font-size: .75em;
@@ -190,7 +190,6 @@ body {
  }
  .navlinks {
      margin: 0 0.1em;
-     
  }
 
  .logolockup {
@@ -513,6 +512,7 @@ p.whiteParagraph {
     border-color: #02dbcc;
     color: #02dbcc;
     font-weight: bold;
+    border-style: solid;
     padding: 10px 10px;
     border-radius: 3px;
     margin-bottom: 5%;
@@ -552,6 +552,7 @@ hr.blackDivider {
     align-items: center center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 2%;
 }
 .boxSeven {
     display: flex;
@@ -570,6 +571,7 @@ h2#headingSeven {
     display: grid;
     margin-right: auto;
     margin-top: 3%;
+    margin-bottom: 2%;
 }
 h2#headingEight {
     color: #413d4b;
@@ -578,7 +580,7 @@ h2#headingEight {
 }
 img.brandLogo {
     width: 150px;
-    height: 70px;
+    height: auto;
     margin: 4%;
 }
 
@@ -715,7 +717,7 @@ img.brandLogo {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10% 0%;
+    padding: 5% 0%;
     background-image: url(Media/Background/bgk-footer.png);
     background-size: cover;
     background-position: center center;
@@ -871,7 +873,7 @@ textarea:focus, input:focus {
 }
 
 .sec9_location_icon {
-
+    padding-right: 1em;
     width: 1em;
 }
 
@@ -904,7 +906,7 @@ textarea:focus, input:focus {
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: .5em;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .sec9_ourstudio_alignment {
