@@ -711,22 +711,6 @@ img.brandLogo {
  }
 
 
- .logoSize {
-     font-size: 2.5em;
-     margin: 0 0 0 .25em;
- }
-
- /*   Information about gradients over text:  https://fossheim.io/writing/posts/css-text-gradient/   */
- .logo-gradient {
-    background-color: #f3ec78;
-    background-image: linear-gradient(90deg, #00e0d0, #4aa3cc);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-
 .section9 {
     display: inline-flex;
     align-items: center;
